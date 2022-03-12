@@ -165,6 +165,7 @@
 				9100834024DF1EEB003E57AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		910C29CF24D910D300B9116B /* Products */ = {
 			isa = PBXGroup;

@@ -60,5 +60,5 @@ SpacesInSquareBrackets: false
 Standard: Cpp11
 StatementMacros: ['AUSDK_Catch']
 TabWidth: 4
-UseTab: ForContinuationAndIndentation
+UseTab: Never
 ...
