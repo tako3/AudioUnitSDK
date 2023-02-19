@@ -270,7 +270,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 910C29D224D910D300B9116B /* Build configuration list for PBXNativeTarget "AudioUnitSDK" */;
 			buildPhases = (
-				9100837924E1A54B003E57AE /* Install clang-format hook */,
 				910C29CA24D910D300B9116B /* Headers */,
 				910C29CB24D910D300B9116B /* Sources */,
 				910C29CC24D910D300B9116B /* Frameworks */,
@@ -357,28 +356,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		9100837924E1A54B003E57AE /* Install clang-format hook */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Install clang-format hook";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [ $CONFIGURATION == Debug ] ; then\n\t\"$SRCROOT/hooks/install.sh\"\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9100833124DF1C82003E57AE /* Sources */ = {
